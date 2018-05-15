@@ -3,10 +3,10 @@
     'name': "a1-martic20",
 
     'summary': """
-        Tercer intent de mòdul, aques funcionarà""",
+        Tercer intent de mòdul, aquest funcionarà""",
 
     'description': """
-        Descripció curta
+        Descripció molt molt llarga
     """,
 
     'author': "martic20",
@@ -23,7 +23,8 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/todo_access_rules.xml',
+        'security/ir.model.access.csv',
         'views/todo_menu.xml',
         'views/todo_view.xml',
         #'views/templates.xml',
